@@ -4,7 +4,7 @@ const Car = db.cars;
 // Add and Save a new Car
 exports.create = (req, res) => {
     // Validate request
-    if (!req.body.title) {
+    if (!req.body.carname) {
       res.status(400).send({ message: "Content can not be empty!" });
       return;
     }
