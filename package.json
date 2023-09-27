@@ -1,0 +1,24 @@
+{
+  "name": "fastmotors",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with node.js, express, mongodb ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "Rolani Maluleka",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3"
+  }
+}
